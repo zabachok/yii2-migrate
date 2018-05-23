@@ -1,8 +1,8 @@
 <?php
 
-namespace app\components;
+namespace zabachok\migrate;
 
-use app\helpers\FileHelper;
+use yii\helpers\FileHelper;
 use yii\base\Exception;
 use yii\console\controllers\MigrateController as YiiMigrateController;
 use yii\db\Migration;
